@@ -87,19 +87,6 @@ npx roseofsharon-korean-writing codex
 
 ### Manual install
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon-korean-writing/main/install.sh | bash
-```
-
-Tool-specific:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon-korean-writing/main/install.sh | bash -s -- hermes
-curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon-korean-writing/main/install.sh | bash -s -- codex
-```
-
-### Manual install
-
 Hermes:
 
 ```bash
