@@ -61,6 +61,14 @@ More examples:
 
 This is the primary install path right now:
 
+If you cloned the repo locally, you can also run:
+
+```bash
+./rose
+./rose hermes
+./rose codex
+```
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon/main/install.sh | bash
 ```

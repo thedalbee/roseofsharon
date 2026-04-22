@@ -4,6 +4,7 @@
   "description": "Install the roseofsharon Korean writing skill for Hermes and Codex",
   "license": "MIT",
   "bin": {
-    "roseofsharon-korean-writing": "bin/install.js"
+    "rose": "bin/install.js",
+    "roseofsharon": "bin/install.js"
   }
 }
