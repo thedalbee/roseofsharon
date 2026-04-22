@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_RAW_BASE="https://raw.githubusercontent.com/thedalbee/roseofsharon-korean-writing/main"
+REPO_RAW_BASE="https://raw.githubusercontent.com/thedalbee/roseofsharon/main"
 SKILL_URL="$REPO_RAW_BASE/SKILL.md"
 
 install_hermes() {

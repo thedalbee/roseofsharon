@@ -7,6 +7,8 @@
 
 A Korean writing skill for Hermes and Codex.
 
+Default chat invocation: `/rose`
+
 The point is simple: make Korean sound like it was originally thought in Korean.
 Not translated from English. Not flattened into office prose. Not polished into generic AI cleanliness.
 
@@ -60,14 +62,14 @@ More examples:
 This is the primary install path right now:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon-korean-writing/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon/main/install.sh | bash
 ```
 
 Tool-specific:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon-korean-writing/main/install.sh | bash -s -- hermes
-curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon-korean-writing/main/install.sh | bash -s -- codex
+curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon/main/install.sh | bash -s -- hermes
+curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon/main/install.sh | bash -s -- codex
 ```
 
 ### npx later
@@ -75,14 +77,14 @@ curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon-korean-writi
 If you publish this package to npm later, this can become the shorter install path:
 
 ```bash
-npx roseofsharon-korean-writing
+npx roseofsharon
 ```
 
 Tool-specific:
 
 ```bash
-npx roseofsharon-korean-writing hermes
-npx roseofsharon-korean-writing codex
+npx roseofsharon hermes
+npx roseofsharon codex
 ```
 
 ### Manual install
@@ -91,7 +93,7 @@ Hermes:
 
 ```bash
 mkdir -p ~/.hermes/skills/creative/roseofsharon-korean-writing
-curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon-korean-writing/main/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon/main/SKILL.md \
   -o ~/.hermes/skills/creative/roseofsharon-korean-writing/SKILL.md
 ```
 
@@ -99,7 +101,7 @@ Codex:
 
 ```bash
 mkdir -p ~/.codex/skills/roseofsharon-korean-writing
-curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon-korean-writing/main/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon/main/SKILL.md \
   -o ~/.codex/skills/roseofsharon-korean-writing/SKILL.md
 ```
 

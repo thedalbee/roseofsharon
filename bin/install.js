@@ -4,7 +4,7 @@ const os = require('os');
 const path = require('path');
 const https = require('https');
 
-const base = 'https://raw.githubusercontent.com/thedalbee/roseofsharon-korean-writing/main';
+const base = 'https://raw.githubusercontent.com/thedalbee/roseofsharon/main';
 const skillUrl = `${base}/SKILL.md`;
 
 function fetch(url) {
