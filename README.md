@@ -8,6 +8,7 @@
 A Korean writing skill for Hermes and Codex.
 
 Default chat invocation: `/rose`
+This means the user-facing shorthand in prompts and docs should be `/rose`, not a local shell command.
 
 The point is simple: make Korean sound like it was originally thought in Korean.
 Not translated from English. Not flattened into office prose. Not polished into generic AI cleanliness.
@@ -60,14 +61,6 @@ More examples:
 ### curl
 
 This is the primary install path right now:
-
-If you cloned the repo locally, you can also run:
-
-```bash
-./rose
-./rose hermes
-./rose codex
-```
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/thedalbee/roseofsharon/main/install.sh | bash
