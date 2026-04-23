@@ -7,6 +7,7 @@ license: MIT
 metadata:
   hermes:
     tags: [korean, writing, editing, humanization, style]
+    aliases: [rose]
 ---
 
 # roseofsharon Korean writing
