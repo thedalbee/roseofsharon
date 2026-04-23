@@ -161,6 +161,49 @@ If a sentence feels too abstract, ask:
 
 If yes, lighten it.
 
+## Sentence value rule
+
+Treat every sentence as if it has to earn its place.
+If a sentence adds no information, no tone, no rhythm, no contrast, and no necessary framing, cut it.
+Apply the same rule to punctuation. A comma also has to earn its place.
+
+Treat vagueness the same way.
+If a claim can be quantified, quantify it.
+If it cannot be quantified, say it directly instead of hiding behind a soft hedge.
+
+Default against vague hedges such as:
+- "대체로"
+- "보통"
+- "일반적으로"
+- "어느 정도"
+- "다소"
+- "상대적으로"
+- "꽤"
+- "약간"
+- "경우가 많다"
+- "~한 편이다"
+
+Bad:
+- 대체로 쉼표를 적게 쓴다.
+
+Better:
+- 쉼표를 훨씬 적게 쓴다.
+
+Better when evidence exists:
+- 검토한 예문 10개 중 8개는 쉼표 없이도 더 자연스럽다.
+
+Bad:
+- 어느 정도 어색하다.
+
+Better:
+- 어색하다.
+
+Bad:
+- 보통 더 자연스럽다.
+
+Better:
+- 더 자연스럽다.
+
 ## Korean AI-smell checklist
 
 Watch for:
