@@ -1,21 +1,18 @@
-# roseofsharon Korean writing
+# roseofsharon
 
 ![skill](https://img.shields.io/badge/skill-korean%20writing-111111?style=flat-square)
 ![license](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 ![version](https://img.shields.io/badge/version-1.1.0-7c3aed?style=flat-square)
 ![focus](https://img.shields.io/badge/focus-translationese%20removal-0f766e?style=flat-square)
 
-Hermes와 Codex에서 쓰는 한국어 글쓰기 스킬입니다.
+Hermes와 Codex 쓰다가 답답해서 만든 한국어 글쓰기 스킬입니다.
+기본 호출명은 `/rose`입니다.
 
-기본 호출명은 `/rose`입니다. 문서나 프롬프트에서 이 스킬을 부를 때 이렇게 적으면 됩니다.
+## 문제
 
-## 지금 흔한 문제
-
-AI가 쓴 한국어는 자주 비슷한 쪽으로 무너집니다. 영어 문장을 그대로 옮긴 듯한 번역투가 남고, 공문서처럼 딱딱한 톤이 붙고, 설명은 과하게 정리되어 있는데 막상 사람 말맛은 빠집니다. `활용하다`, `진행하다`, `제공하다`, `검토하다` 같은 말이 반복되고, 한자어가 잘못이 아닌데도 문장이 계속 보고서처럼 굳어집니다.
+AI가 쓴 한국어는 아주 더럽습니다. 영어 문장을 그대로 옮긴 듯한 번역투가 남고, 공문서처럼 딱딱한 톤이 붙고, 설명은 과하게 정리되어 있는데 막상 사람 말맛은 빠집니다. `활용하다`, `진행하다`, `제공하다`, `검토하다` 같은 말이 반복되고, 한자어가 잘못이 아닌데도 문장이 계속 보고서처럼 굳어집니다.
 
 결과적으로 문법은 맞는데 사람이 쓴 것 같지는 않은 문장이 나옵니다. 읽는 사람 입장에서는 이상하게 힘이 들어가고, 쓴 사람 입장에서는 "왜 이렇게까지 딱딱하지?"라는 느낌이 남습니다.
-
-## 이걸 방치하면 생기는 일
 
 이 상태를 그냥 두면 한국어가 점점 더 번역문처럼 굳습니다. 설명문은 설명문대로 숨이 막히고, 대화문은 대화문대로 사람 냄새가 빠집니다. 존댓말과 반말, 호칭과 거리감도 흐트러지기 쉽고, 핵심은 단순한데 문장은 계속 무거워집니다.
 
