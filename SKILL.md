@@ -58,6 +58,14 @@ Unless the user explicitly asks for literary prose, legalese, academic prose, or
 - Remove stiffness and AI smell without sanding away personality.
 - Keep the writer's intention, pacing, and attitude when possible.
 
+6. 쉼표를 강한 한국어 AI 냄새 신호로 취급합니다.
+- 한국어 네이티브 문장에서는 쉼표 사용 빈도가 AI가 생각하는 것보다 훨씬 낮습니다.
+- 문장 두세 개 연속으로 쉼표가 계속 나오면 일단 AI 냄새를 의심합니다.
+- 기본값은 쉼표로 절을 이어붙이는 것보다 문장을 짧게 끊는 것입니다.
+- 쉼표는 정말 필요한 경우에만 남깁니다. 뜻이 갈리거나, 삽입구가 꼭 필요하거나, 문장을 나누면 오히려 더 읽기 어려울 때만 씁니다.
+- 깔끔하게 끊을 수 있으면 끊습니다.
+- 쉼표가 여러 개 들어간 긴 문장은 기본적으로 과잉이라고 보고 먼저 의심합니다.
+
 ## Sino-Korean words: do not ban them, sort them
 
 Do not treat all 한자어 as bad. Korean actually runs on a huge number of naturalized 한자어.
@@ -157,7 +165,9 @@ If yes, lighten it.
 
 Watch for:
 - repeated summary closers like "중요하다", "필요가 있다", "결론적으로"
+- zero-value framing like "결론부터 말하면", "핵심은", "쉽게 말하면" when the sentence can simply start with the point
 - abstract noun stacks with "~성 / ~화 / ~적"
+- comma-heavy sentences and repeated comma use across consecutive sentences
 - every sentence being equally complete, equally explicit, equally tidy
 - excessive transition words like "또한", "더불어", "뿐만 아니라"
 - flat explanatory rhythm with no compression or implication
@@ -182,7 +192,8 @@ Watch for:
 - abstraction overload
 
 3. Fix the biggest smell first.
-- Start with sentence movement and register.
+- Start with sentence movement, register, and comma load.
+- Split long comma-chained sentences before polishing diction.
 - Then cut dead transitions, abstract endings, and generic filler.
 - Then tune rhythm and diction.
 
